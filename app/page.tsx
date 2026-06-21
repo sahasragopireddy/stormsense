@@ -108,7 +108,7 @@ export default function Home() {
         if (calibrating) { ambientSamples.push(avg); }
         else {
           const ambient = ambientSamples.length ? ambientSamples.reduce((a, b) => a + b, 0) / ambientSamples.length : 20;
-          const threshold = Math.max(ambient * 1.8, 25);
+          const threshold = Math.max(ambient * 1.3, 15);
           if (avg > threshold) { onThunderDetected(); return; }
         }
         rafRef.current = requestAnimationFrame(detect);
