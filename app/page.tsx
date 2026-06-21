@@ -259,8 +259,8 @@ Return ONLY valid JSON, no markdown:
         {/* Header */}
         <div style={{ padding: "20px 20px 0", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontSize: 18, fontWeight: 900, letterSpacing: "-0.03em", color: "#fff" }}>STORM</span>
-            <span style={{ fontSize: 18, fontWeight: 900, letterSpacing: "-0.03em", color: "#F5C400" }}>SENSE</span>
+          <span style={{ fontSize: 18, fontWeight: 900, letterSpacing: "-0.03em", color: "#fff" }}>BL</span>
+          <span style={{ fontSize: 18, fontWeight: 900, letterSpacing: "-0.03em", color: "#F5C400" }}>IX</span>
           </div>
           {stage !== "intro" && (
             <button onClick={resetAll} style={{ background: "rgba(255,255,255,0.07)", color: "#888", border: "none", borderRadius: 8, padding: "6px 14px", fontSize: 12, fontWeight: 600, cursor: "pointer", letterSpacing: "0.05em" }}>
