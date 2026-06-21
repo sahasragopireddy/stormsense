@@ -199,7 +199,7 @@ RULES:
 
 Return ONLY valid JSON, no markdown:
 {
-  "riskLevel": "LOW" | "MODERATE" | "HIGH" | "EXTREME",
+  "riskLevel": "LOW" (no visible storm, lightning far away) | "MODERATE" (storm visible but distant, some shelter nearby) | "HIGH" (storm close, under 6 miles, exposed location) | "EXTREME" (lightning under 3 miles, no shelter visible, open exposed area with tall conductors),
   "hazards": ["only things visible in photos"],
   "steps": ["action based on what you see", "..."],
   "reasoning": "what you see and why",
